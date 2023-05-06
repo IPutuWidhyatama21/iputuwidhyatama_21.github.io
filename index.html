@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK FAVICON -->
+    <link rel="shortcut icon" href="./assets/img/pie.png" type="image/x-icon">
+
+    <!---------- CSS LINK ----------->
+    <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
+
+    <title>Treats ‘N Eats</title>
+</head>
+<body>
+    
+    <!--  -->
+    <nav class="navbar sticky-top bg-body-tertiary fixed-top">
+        <div class="container-fluid ps-4 pe-4">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/pie.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+            <span class="nav-cap">Treats ‘N Eats</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="nav-cap">Treats ‘N Eats</span></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#branding">Personal Branding</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#tentang-kami">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#kontak">Kontak</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!--  -->
+    <div data-bs-spy="scroll" data-bs-target="#offcanvasNavbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+      <div id="carousel-slider" class="carousel slide mb-5 pb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="beranda">
+                <img class="d-block w-100 banner-img carousel-img" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="slider-caption">Selamat Datang di</h2>
+                  <h1 class="slider-caption nav-cap">Treats ‘N Eats</h1>
+                  <p>Sebuah Toko Dessert Online tebaik yang Pernah Ada</p>
+                </div>
+              </div>
+              <div class="carousel-item banner-img">
+                <img class="d-block w-100 banner-img carousel-img-2" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="slider-caption">Nikmati Hidangan Dessert Terbaik</h1>
+                  <h2 class="slider-caption">Dari Seluruh Dunia!</h2>
+                  <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+                </div>
+              </div>
+              <div class="carousel-item banner-img">
+                <img class="d-block w-100 banner-img carousel-img-3" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="slider-caption">Cita Rasa Terbaik yang Pernah Ada</h2>
+                  <p class="slider-caption-text">Dengan harga terjangkau!</p>
+                  <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--  -->
+    <div class="branding mb-5" id="branding">
+        <div class="header-icon text-center mb-4">
+            <h1>Personal Branding Kami</h1>
+            <span class="red">Our Personal Branding</span>
+            <div>--------------------------------</div>
+        </div>
+        <div class="d-flex justify-content-center align-text-center">
+            <div class="content me-5">
+                <img class="icon-content ms-3" src="./assets/img/badge.png" alt="">
+                <p class="text-center text-icon">Top Brand</p>
+            </div>
+            <div class="content ms-5 me-5">
+                <img class="icon-content p-2" src="./assets/img/checked.png" alt="">
+                <p class="text-center text-icon">Trusted</p>
+            </div>
+            <div class="content ms-5">
+                <img class="icon-content" src="./assets/img/hungry.png" alt="">
+                <p class="text-center text-icon">Yummy</p>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="menu p-5" id="menu">
+        <div class="header-icon text-center mb-4">
+            <h1>Menu Terbaik</h1>
+            <span class="red">The Best Menu</span>
+            <div>--------------------</div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/cakes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Oreo Cake</h3>
+                <p class="card-text">Lorem ipsum dolor sit, ratione dolor fugiat quam. Neque quia maiores ullam earum adipisci eligendi. Vitae, eaque iure!</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/waffels.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Waffels</h3>
+                <p class="card-text">Lorem ipsum dolor sit, ratione dolor fugiat quam. Neque quia maiores ullam earum adipisci eligendi. Vitae, eaque iure!</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/choco-broniew.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Chocolate's Broniew</h3>
+                <p class="card-text">Lorem ipsum dolor sit, ratione dolor fugiat quam. Neque quia maiores ullam earum adipisci eligendi. Vitae, eaque iure!</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/creamy-dessert.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Creamy Dessert</h3>
+                <p class="card-text">Lorem ipsum dolor sit, ratione dolor fugiat quam. Neque quia maiores ullam earum adipisci eligendi. Vitae, eaque iure!</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/choco-cake.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Chocolate's Cake</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptatem. Cum error harum, aperiam quas vel iure dicta, qui suscipit amet sequi veritatis voluptatem voluptas necessitatibus, optio alias maxime exercitationem. Lorem ipsum dolor sit amet</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning-subtle">
+              <img src="./assets/img/pie.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="header-icon text-center mb-3">Pie</h3>
+                <p class="card-text">Lorem ipsum dolor sit, ratione dolor fugiat quam. Neque quia maiores ullam earum adipisci eligendi. Vitae, eaque iure!</p>
+                <div class="rating-star">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star-half-alt" style="color: yellow;"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-success button-m mt-5" href="#" role="button">Lihat Selengkapnya</a>  
+    </div>
+
+    <!--  -->
+    <div class="about-section p-5 pb-5" id="tentang-kami">
+      <div class="header-text text-center mb-5 pb-5">
+        <h1 class="mb-3">Tentang Treats ‘N Eats</h1>
+        <span class="red">About Treats ‘N Eats</span>
+        <div>---------------------------</div>
+        <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+      </div>
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 ps-5">
+            <div class="text-box text-center">
+              <h5 class="header-text mb-5">Toko Dessert Terbaik</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio nesciunt iusto laboriosam enim maxime tempore sint saepe beatae, aliquam quo recusandae, voluptas incidunt pariatur ratione cumque quas est a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate deleniti officiis incidunt necessitatibus quas dolores nemo eum adipisci nostrum, laudantium eos quia quibusdam, quasi aut amet animi blanditiis accusamus! Lorem ipsum, dolor sit amet consectetur adipisicing elit.. </p>
+              <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 pe-5">
+            <div class="content-box">
+              <img class="img" src="./assets/img/choco-broniew.jpg" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!--  -->
+      <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-bg-dark">
+              <img class="d-block w-100 banner-img carousel-img" alt="">
+              <div class="card-img-overlay content-slide">
+                <h4 class="card-title">Diskon Hingga 20%</h4>
+                <h1 class="card-title mb-4">Party Sale Offer!</h1>
+                <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+              <img class="d-block w-100 banner-img carousel-img-2" alt="">
+              <div class="card-img-overlay content-slide">
+                <h1 class="card-title">Cita Rasa Yang Unik dan Lezat!</h1>
+                <p class="card-text w-50 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aperiam nulla voluptate a at quaerat similique repellat odit alias magni rem eaque deleniti, voluptatem dicta corporis eveniet! Repellat, veniam ratione.</p>
+                <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+              <img class="d-block w-100 banner-img carousel-img-3" alt="">
+              <div class="card-img-overlay content-slide">
+                <h1 class="card-title">Ayo Pesan Sekarang!</h1>
+                <p class="card-text mb-4">Lorem animi laboriosam tempore maiores voluptatum.</p>
+                <a class="btn btn-success" href="#" role="button">Pesan Sekarang!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="menu pt-5 mt-5 pb-5 p-5" id="blog">
+        <div class="header-text text-center mb-5">
+          <h1 class="mb-3">Blog</h1>
+          <span class="red">Our Blog</span>
+          <div>---------------------------</div>
+          <p class="text">Dessert blogging is a sweet way to explore the world of flavors and textures. From cakes to cookies, my dessert blog is a paradise for sweet tooths.</p>
+        </div>
+        <div class="card-group mt-5">
+          <div class="card ms-3 me-3 border">
+            <img src="./assets/img/make-dessert.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="header-icon text-center mb-3">Toko Dessert Terbaik</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus temporibus culpa voluptate aliquid perferendis similique recusandae vitae, quas officiis neque dolor consequatur molestiae ad labore mollitia? Illum, vitae minus.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card ms-3 me-3 border">
+            <img src="./assets/img/make-dessert.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="header-icon text-center mb-3">Toko Dessert Terbaik</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus temporibus culpa voluptate aliquid perferendis similique recusandae vitae, quas officiis neque dolor consequatur molestiae ad labore mollitia? Illum, vitae minus.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card ms-3 me-3 border">
+            <img src="./assets/img/make-dessert.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="header-icon text-center mb-3">Toko Dessert Terbaik</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus temporibus culpa voluptate aliquid perferendis similique recusandae vitae, quas officiis neque dolor consequatur molestiae ad labore mollitia? Illum, vitae minus.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="contact pt-5 mt-5 pb-5 mb-5" id="kontak">
+        <div class="header-text text-center mb-5">
+          <h1 class="mb-3">Hubungi Kami</h1>
+          <span class="red">Contact We</span>
+          <div>---------------------------</div>
+          <p class="text">Hubungi Kami untuk lebih banyak infomasi</p>
+        </div>
+        <div class="container-sm">
+          <div class="d-flex">
+            <div class="form-floating mb-3 col-md-6 me-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput design-float">Nama</label>
+            </div>
+            <div class="form-floating mb-3 col-md-6 ms-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email</label>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="form-floating mb-3 col-md-6 me-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput design-float">No Handphone</label>
+            </div>
+            <div class="form-floating mb-3 col-md-6 ms-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Alamat</label>
+            </div>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control comment" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px;"></textarea>
+            <label for="floatingTextarea2">Pesan</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--  -->
+      <footer class="footer pt-5 pb-4">
+        <div class="container text-start">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col pb-4">
+              <div class="d-flex">
+                <img src="./assets/img/pie.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-center me-2">
+                <h4 class="header-text pb-3">Treats ‘N Eats</h4>
+              </div>
+              <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste nihil voluptates, magnam architecto consequuntur at exercitationem.</p>
+            </div>
+            <div class="col pb-4">
+              <h4 class="header-text pb-3">Tautan</h4>
+              <div class="d-flex flex-column footer-link">
+                <a href="#beranda">> Beranda</a>
+                <a href="#branding">> Personal Branding</a>
+                <a href="#menu">> Menu</a>
+                <a href="#tentang-kami">> Tentang Kami</a>
+                <a href="#blog">> Blog</a>
+                <a href="#kontak">> Kontak</a>
+              </div>
+            </div>
+            <div class="col pb-4">
+              <h4 class="header-text pb-3">Kontak Kami</h4>
+              <div class="d-flex">
+                <i class="fa-solid fa-house-chimney me-2 mt-1"></i>
+                <p>Jalan Hos Cokroaminoto No. 84, Ubung, Denpasar Bali</p>
+              </div>
+              <div class="d-flex">
+                <i class="fa-solid fa-at me-2 mt-1"></i>
+                <p>treatsneats@gmail.com</p>
+              </div>
+              <div class="d-flex">
+                <i class="fa-solid fa-phone me-2 mt-1"></i>
+                <p>081231126475</p>
+              </div>
+            </div>
+            <div class="col pb-4">
+              <h4 class="header-text pb-3">Ikuti Kami</h4>
+              <div class="row row-cols-4">
+                <div class="col"><i class="fa-brands fa-facebook"></i></div>
+                <div class="col"><i class="fa-brands fa-instagram"></i></div>
+                <div class="col"><i class="fa-brands fa-tiktok"></i></div>
+                <div class="col"><i class="fa-brands fa-twitter"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="copyright pt-4 pb-2">
+        <p class="text-center">© Treats ‘N Eats, 2023. Seluruh hak cipta dilindungi oleh undang-undang. </p>
+      </footer>
+
+    <!-- JavaScript LINK -->
+    <script src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+    <script src="./assets/fontawesome/js/brands.min.js"></script>
+    <script src="./assets/fontawesome/js/fontawesome.min.js"></script>
+</body>
+</html>
