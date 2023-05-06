@@ -239,4 +239,8 @@ body {
         width: 100%;
         margin-left: 0%;
     }
+    .button-m {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
