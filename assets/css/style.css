@@ -65,8 +65,7 @@ body {
 }
 
 .button-m {
-    margin-left: 40%;
-    width: 20%;
+    margin-left: 45%;
 }
 
 .rating-star .fa-star {
@@ -241,6 +240,5 @@ body {
     }
     .button-m {
         margin-left: 0%;
-        width: 100%;
     }
 }
